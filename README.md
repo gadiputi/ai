@@ -274,3 +274,30 @@ If X is male AND
 X and Y share same parent AND
 
 X ≠ Y
+
+prolog 3:
+Define facts
+
+Store student attributes (hardworking, regular, irregular, average).
+
+Define rule for Excellent Performance
+
+If student is hardworking AND regular
+
+Then performance is excellent.
+
+Define rule for Good Performance
+
+If student is hardworking AND irregular
+
+Then performance is good.
+
+Define rule for Average Performance
+
+If student has average trait
+
+Then performance is average.
+
+Enter student name to check performance.
+
+Apply rules and display performance level.
