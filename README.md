@@ -393,3 +393,27 @@ Match the facts
 Display result if match found.
 
 Stop.
+
+prolog 9:
+Start
+
+Store the sentence as a fact.
+
+Define vowel rule
+
+Check if a character belongs to
+{a, e, i, o, u, A, E, I, O, U}
+
+Convert the sentence into a list of characters.
+
+Initialize vowel count to 0.
+
+Traverse each character in the list:
+
+If character is vowel → increase count by 1
+
+Otherwise → move to next character
+
+Repeat until list becomes empty.
+
+Display total vowel count.
