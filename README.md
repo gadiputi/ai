@@ -1,3 +1,4 @@
+
 Breath First Search(BFS):- BFS(Graph, S): create empty queue Q mark S as visited enqueue S into Q
 while Q is not empty:
     V = dequeue Q
@@ -330,3 +331,36 @@ When query fly(X) is given
 If X = penguin → fail
 
 Otherwise → succeed
+
+prolog 5:
+Define facts
+
+Robert is an American.
+
+Missile is a weapon.
+
+CountryA is hostile.
+
+CountryA owns missile.
+
+Robert sells missile to CountryA.
+
+Define rule for criminal
+
+A person X is criminal if:
+
+X is American
+
+X sells a weapon to a country
+
+The weapon is a weapon
+
+The country is hostile
+
+When query criminal(X) is given
+
+Check all conditions
+
+If all are true → X is criminal
+
+Display result
