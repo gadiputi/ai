@@ -463,3 +463,58 @@ X ≠ Y
 Accept query from user
 
 Display result based on rules
+
+prolog 7:
+Define Gender Facts
+
+Store all female persons using female(Name).
+
+Store all male persons using male(Name).
+
+Define Parent Relationship Facts
+
+Specify who is parent of whom using parent(Parent, Child).
+
+Define Mother Relation
+
+X is mother of Y
+
+If X is female AND X is parent of Y.
+
+Define Father Relation
+
+X is father of Y
+
+If X is male AND X is parent of Y.
+
+Define Brother Relation
+
+X is brother of Y
+
+If X is male AND
+
+X and Y share the same parent AND
+
+X ≠ Y.
+
+Define Sister Relation
+
+X is sister of Y
+
+If X is female AND
+
+X and Y share the same parent AND
+
+X ≠ Y.
+
+Accept Query from User
+
+User gives relation query (e.g., mother(X,Y)).
+
+Apply Rules
+
+System checks facts and rules in database.
+
+Display Result
+
+Show true/false or matching values.
