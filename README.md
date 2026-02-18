@@ -168,3 +168,43 @@ else:
         if beta <= alpha:
             break       // alpha cut-off
     return value
+  PROLOG:
+  MAP COLOR:
+  Step 2:
+
+Input
+
+List of regions (states)
+
+List of colors
+
+Step 3:
+
+Assign a color to the first region.
+
+Step 4:
+
+Check constraints:
+
+The selected color should NOT be the same as any adjacent region.
+
+Step 5:
+
+If the color is valid →
+Move to next region.
+
+Step 6:
+
+If no color is valid →
+Backtrack (change previous region’s color).
+
+Step 7:
+
+Repeat until all regions are colored.
+
+Step 8:
+
+If all regions are colored successfully →
+Print solution.
+
+Step 9: Stop.
