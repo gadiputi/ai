@@ -301,3 +301,32 @@ Then performance is average.
 Enter student name to check performance.
 
 Apply rules and display performance level.
+
+prolog4:
+Start
+
+Define facts
+
+eagle, sparrow, and penguin are birds.
+
+Define rule 1
+
+If bird is penguin
+
+Use cut (!)
+
+Force failure (fail)
+
+Therefore, penguin cannot fly.
+
+Define rule 2
+
+If X is a bird
+
+Then X can fly.
+
+When query fly(X) is given
+
+If X = penguin → fail
+
+Otherwise → succeed
