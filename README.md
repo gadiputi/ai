@@ -364,3 +364,32 @@ Check all conditions
 If all are true → X is criminal
 
 Display result
+
+prolog 6:
+Define facts using orbits(Object, Body)
+
+Mercury orbits Sun
+
+Venus orbits Sun
+
+Earth orbits Sun
+
+Mars orbits Sun
+
+Moon orbits Earth
+
+Phobos orbits Mars
+
+Deimos orbits Mars
+
+Store all orbit relationships in the knowledge base.
+
+When a query is given (e.g., orbits(X, Y))
+
+Search the database
+
+Match the facts
+
+Display result if match found.
+
+Stop.
