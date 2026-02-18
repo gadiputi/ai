@@ -208,3 +208,69 @@ If all regions are colored successfully →
 Print solution.
 
 Step 9: Stop.
+
+prolog 2:
+Step 1: Start
+Step 2:
+
+Define gender facts
+
+Mark persons as male or female
+
+Step 3:
+
+Define parent relationship
+
+Specify who is parent of whom
+
+Step 4: Define Mother Relation
+
+A person X is mother of Y
+
+If X is female AND X is parent of Y
+
+Step 5: Define Father Relation
+
+A person X is father of Y
+
+If X is male AND X is parent of Y
+
+Step 6: Define Grandfather Relation
+
+X is grandfather of Y
+
+If X is male AND
+
+X is parent of Z AND
+
+Z is parent of Y
+
+Step 7: Define Grandmother Relation
+
+X is grandmother of Y
+
+If X is female AND
+
+X is parent of Z AND
+
+Z is parent of Y
+
+Step 8: Define Sister Relation
+
+X is sister of Y
+
+If X is female AND
+
+X and Y share same parent AND
+
+X ≠ Y
+
+Step 9: Define Brother Relation
+
+X is brother of Y
+
+If X is male AND
+
+X and Y share same parent AND
+
+X ≠ Y
