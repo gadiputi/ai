@@ -417,3 +417,49 @@ Otherwise → move to next character
 Repeat until list becomes empty.
 
 Display total vowel count.
+prolog 8:
+Define gender facts
+
+Store all female persons using female(Name)
+
+Store all male persons using male(Name)
+
+Define parent relationship facts
+
+Specify who is parent of whom (if given).
+
+Define Mother relation
+
+X is mother of Y
+
+If X is female AND X is parent of Y
+
+Define Father relation
+
+X is father of Y
+
+If X is male AND X is parent of Y
+
+Define Brother relation
+
+X is brother of Y
+
+If X is male AND
+
+X and Y share same parent AND
+
+X ≠ Y
+
+Define Sister relation
+
+X is sister of Y
+
+If X is female AND
+
+X and Y share same parent AND
+
+X ≠ Y
+
+Accept query from user
+
+Display result based on rules
